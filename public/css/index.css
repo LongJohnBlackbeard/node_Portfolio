@@ -11,8 +11,10 @@ body {
 
 .bio-container {
     margin-right: 70%;
+    min-width: 205px;
+    position: relative;
     background-color: white;
-    display: block;
+    
     border-radius: 15px;
     padding-left: 5px;
 }
