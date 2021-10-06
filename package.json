@@ -1,0 +1,22 @@
+{
+  "name": "node_portfolio",
+  "version": "1.0.0",
+  "description": "Web Portfolio using Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongJohnBlackbeard/node_Portfolio.git"
+  },
+  "author": "Daniel Tujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LongJohnBlackbeard/node_Portfolio/issues"
+  },
+  "homepage": "https://github.com/LongJohnBlackbeard/node_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
