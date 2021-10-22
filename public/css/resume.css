@@ -1,0 +1,60 @@
+.centered {
+    margin: auto;
+    text-align: center;    
+    
+}
+
+hr {
+    
+    height: 2px;
+    color: black;
+    background-color: black;
+    
+}
+#info-p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-align: center;
+    
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Times New Roman";
+}
+
+
+
+.subject-header {
+    margin-bottom: -10px;
+    font-size: 18px;
+    
+}
+
+h3 {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+
+ul {
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.indent {
+    margin-left: 40px;
+    margin-bottom: -10px;
+    
+}
