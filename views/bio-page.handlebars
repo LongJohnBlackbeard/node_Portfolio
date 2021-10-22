@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="/css/bio-page.css">
+<div class="name">
+    <h1>D<span style="color:rgb(247, 6, 207)">a</span>n<span style="color:rgb(247, 6, 207)">i</span>e<span style="color:rgb(247, 6, 207)">l</span> T<span style="color:rgb(247, 6, 207)">u</span>j<span style="color:rgb(247, 6, 207)">o</span></h1>
+    <p style="text-align: center; font-size:150%; margin-top: 0px; font-family: Arial;"><a style="color:rgb(36, 23, 52)" href="mailto:danieltujo@lewisu.edu">danieltujo@lewisu.edu</a></p>
+    <img src="https://live.staticflickr.com/65535/51441713398_f5fd361929_m.jpg"  alt="Head and Shoulders photo" class="center">
+</div>
+<div class="intro_box">
+
+    <h2 class="header_title">Introduction</h2>
+    <p class="about">
+        Greetings, my name is Daniel Tujo and I am not quite 
+        sure whether I am considered a junior or senior 
+        here at Lewis. I transferred here last fall and with how many credits I have 
+        I would be considered a senior. But with how many requirements I have left,
+        I would  probably be considered a junior. Prior to transfering 
+        here, I attended JJC as well as CCC and work inbetween. Now I am fully commited to finishing my degree
+        and starting my career. I am a Computer Science Major with a concentration in Artificial Intelligence. 
+        I am hoping that once I graduate I would be able to start a career as a software engineer or data scientist.    
+    </p>
+
+    <script>
+        function changeText(value) {
+            document.getElementById('pText').innerHTML = "text 1";
+            if(value == "Learn")
+            {
+                document.getElementById('pText').innerHTML = '<span style="color: rgba(246, 1, 157)">What I hope to learn in this course</span> <br> There are a lot things that I hope to learn in this course,' +
+                ' but the majority of it relates to the same theme: Be a better programmer. Some of the topics that interest me most are: ' +
+                '<ul style="text-align:left; list-style-type: square"><li>Software frameworks and architecture</li><li>Development Process</li><li>Software Testing</li></ul>';
+            } else if(value == "Hobby") {
+                document.getElementById('pText').innerHTML = '<span style="color: rgba(246, 1, 157)">My Favorite Hobby</span><br>' + 
+                'I have several hobbies and out of all of them I would have to say that my current favorite has been video games. ' +
+                'Prior to covid I used to do a lot of other hobbies including B J J, Golf, and be really active in the gym. However, once the pandemic ' +
+                'hit I had to forgo those and had to fill my time somehow. I have always been a gamer, but a lot more in the last year and a half. ' +
+                'Some of the games I currently spend my time in is Path of Exile, League of Legends, and Dayz . I am really looking forward to ' +
+                'the New World release and Battlefield as well. I am starting to get back into hobbies that I had prior to the pandemic, but not all at once.';
+            } else {
+                document.getElementById('pText').innerHTML = '<span style="color: rgba(246, 1, 157)">Greatest Innovation</span><br>' +
+                '<ul style="color:rgb(101, 13, 137);text-align:left; list-style-type: square"><li ><a style=" display: inline-block; border-bottom: 2px solid currentColor; color:rgb(101, 13, 137);text-decoration: none;" href="https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet">Internet</a></li>' +
+                '<li><a style="display: inline-block; border-bottom: 2px solid currentColor; color:rgb(101, 13, 137); text-decoration: none;" href="https://www.ibm.com/ibm/history/ibm100/us/en/icons/fortran/">Fortran</a></li>' + 
+                '<li><a style="display: inline-block; border-bottom: 2px solid currentColor; color:rgb(101, 13, 137); text-decoration: none;" href="https://www.embedded.com/milestones-in-embedded-systems-design/">Microprocessor // Embedded Processor</a></li>';
+            }
+        }
+    </script>
+
+    <p class="button_header">
+        <input class="button" type="button" value="Learn" id="b1" onclick="changeText(this.value);"/>
+        <input class="button" type="button" value="Hobby" id="b2" onclick="changeText(this.value);"/>
+        <input class="button" type="button" value="Innovation" id="b3" onclick="changeText(this.value);"/>
+    </p>
+
+    <p class= "about" id="pText">Click a button above</p>
+
+    <h4 class="header_title">Fun Fact</h4>
+    <p class="about">Some fun facts about me are that I have visited more than 11 countries in Europe, Middle East and South East Asia. I am very into music
+        and before the pandemic I used to go to all kinds of music festivals and concerts. I am really into grunge, rock, and metal. But I still listen to all other
+        genres. I even taught my self for a while to play the drums, but had to stop becuase I moved and had nowhere to play them, and eventually I had to sell them.
+    </p>
+</div>

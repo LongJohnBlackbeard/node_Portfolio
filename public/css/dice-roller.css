@@ -1,0 +1,49 @@
+h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    border-top: 5px solid;
+    text-align: center;
+    background-color: cyan !important;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+#button-random {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 65%;
+    height: 100px;
+    cursor: pointer;
+    
+}
+#button-container {
+    text-align: center;
+    background-color: cyan !important;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#div-container {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: cyan !important;
+    
+}
+
+.dice {
+    display: inline-block;
+    margin: 15px;   
+    border-radius: 3px;
+    background-color: red !important;
+    padding: 30px;
+    font-size: 30px;
+    font-family:'Gill Sans';
+    font-style: bold;
+    
+}

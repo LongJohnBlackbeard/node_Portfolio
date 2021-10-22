@@ -1,0 +1,122 @@
+body {
+    background-image: url("/img/retro_bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1em 1em 1em
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid rgb(46, 33, 87);
+    width: 200px; 
+    height: 300px; 
+    border-radius: 10%
+}
+
+.name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 450px;
+    border: 10px solid rgb(101, 13, 137);
+    border-radius: 5px; 
+    background-color: rgba(45, 226, 230, .75);
+    font-family:'My Custom Font';
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 0%;
+    color: rgb(46, 33, 87)
+}
+
+
+
+.intro_box {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 10px solid rgb(101, 13, 137);
+    border-radius: 5px; 
+    background-color: rgba(45, 226, 230, .75);
+    font-family: "Trebuchet MS"; 
+    
+}
+
+.header_title {
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+    text-align: center;
+    font-size: 150%;
+    border-radius: 5px; 
+    background-color: rgb(46, 33, 87);
+    color: rgb(247, 6, 207);
+    font-family: "My Custom Font";
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    
+}
+
+.button_header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(/fonts/Lazer84.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.about {
+    font-family: "My Custom font";
+    font-size: 20px;
+    color: rgb(36, 23, 52);
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    word-wrap: break-word;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.5;
+    
+}
+
+.button {
+    background-color:rgb(46, 33, 87);
+    border: none;
+    border-radius: 5px;
+    color: rgba(247, 6, 207);
+    font-family: "My Custom Font";
+    padding: 10px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgba(146, 0, 117);
+    color: rgba(46, 33, 87);
+
+}
+
+
+

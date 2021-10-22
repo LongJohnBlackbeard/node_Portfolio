@@ -15,6 +15,11 @@ const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => res.render('home'))
 
+app.get('/resume', (req, res) => res.render('resume'))
+app.get('/regexp', (req, res) => res.render('regexp'))
+app.get('/bio-page', (req, res) => res.render('bio-page'))
+app.get('/dice-roller', (req, res) => res.render('dice-roller', {layout: 'dice'}))
+
 // custom 404 page
 app.use((req, res) => {
   res.type('text/plain')

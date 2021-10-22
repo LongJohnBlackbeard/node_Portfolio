@@ -1,0 +1,52 @@
+
+<link rel="stylesheet" href="/css/dice-roller.css">
+<script src="/js/dice-roller.js"></script>
+
+<div onload=RollDice()>
+
+<h1>Daniel's Dice roller</h1>
+    <!-- 
+        Button container is a container for the button to be
+        able to change position of the button
+    -->        
+    <div id="button-container">
+        <button id="button-random" type="button" onclick="RollDice()" autofocus>Throw them bones!</button>
+    </div>
+    <!-- 
+        Div element is a contain for more div elements. Allows elements to be
+        in-line ( on the same line).
+    -->
+    <div id="div-container">
+        <!--
+            Individual div element for each dice, making it easier to 
+            set attributes, spacing, margins, etc.
+        -->
+        <div class="dice">
+            <p class="dice" id="dice_1">1</p>
+        </div>
+        <div class="dice">
+            <p class="dice" id="dice_2">2</p>
+        </div>
+        <div class="dice">
+            <p class="dice" id="dice_3">3</p>
+        </div>
+        <div class="dice">
+            <p class="dice" id="dice_4">4</p>
+        </div>
+        <div class="dice">
+            <p class="dice" id="dice_5">5</p>
+        </div>
+        <div class="dice">
+            <p class="dice" id="dice_6">6</p>
+        </div>
+        <p>Total: <span id="Total"></span></p>
+        <br>
+        <p>This is a simple dice roller that rolls 6 six-side dice.
+            On page load it rolls the dice automatically, as well when clicking
+            the button or hitting enter on the keyboard will also initiate
+            the javascript function to roll random numbers 1-6. Also, below the
+            dive shows the total of the dice. Multiple features can be easily added
+            to this simple application later.
+        </p>
+    </div>
+</div>
