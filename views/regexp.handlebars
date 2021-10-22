@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/css/regexp.css">
+<script src="/public/js/regexp.js"></script>
+
+<h1>RegExp</h1>
+<!-- Container to structure elements.-->
+<div class="div-container">
+    <!--Two elements that each contain a input field.-->
+    <div id="input-field">
+        <label for="string">String:</label><br>
+        <input type="text" id="string" name="string" value="String to be searched">
+    </div>
+    <div id="input-field">
+        <label for="regexp">RegExp:</label><br>
+        <input type="text" id="regexp" name="regexp" value="searched">
+        <!--This element also contains the button that calls the js function-->
+        <button type="button" onclick="RegFunction()">Check</button>
+    </div>
+    <div class="input field">                    
+    </div>
+    <input id="result" disabled class="text-output"></input>
+    
+</div>

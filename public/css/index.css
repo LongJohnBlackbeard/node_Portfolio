@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("/img/heading_side.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bio-container {
+    margin-right: 70%;
+    min-width: 205px;
+    position: relative;
+    background-color: white;
+    
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+
+#bio {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    
+    display: block;
+    border-radius: 15px;
+    
+    line-height: 30px;
+    
+}
+
+
+.head-photo {
+    width: 800px;
+    height: 400px;
+}
+
+.profile-photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.projects-container {
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border-radius: 15px;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: auto;
+    padding-bottom: 15px;
+    position: relative;
+    
+    
+}
+
+.project {
+    margin-left: 5%;
+    margin-right: 15%;
+    padding: 5px;
+    flex: 0 20%;
+    
+    
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.skills {
+    flex: 30%;
+    padding: 5px;
+    
+    text-align: center;
+    
+}
+
+.logos {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
