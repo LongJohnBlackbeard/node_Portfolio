@@ -78,7 +78,7 @@ h1 {
 
 @font-face {
     font-family: "My Custom Font";
-    src: url(/fonts/Lazer84.woff);
+    src: url('/fonts/Lazer84.woff');
     font-weight: normal;
     font-style: normal;
 }
